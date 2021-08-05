@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../HaDes.srcs/sources_1/new/indec.vhd" \
+"../../../../HaDes.srcs/sim_1/imports/_testbench/indec_tb.vhd" \
+
+# Do not sort compile order
+nosort

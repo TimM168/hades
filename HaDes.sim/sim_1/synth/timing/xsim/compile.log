@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Programme/Xilinx/Vivado Projects/HaDes/HaDes.sim/sim_1/synth/timing/xsim/control_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Programme/Xilinx/Vivado Projects/HaDes/HaDes.srcs/sim_1/imports/_testbench/control_tb.vhd" into library xil_defaultlib
+ERROR: [VRFC 10-2987] 'hadescomponents' is not compiled in library 'xil_defaultlib' [D:/Programme/Xilinx/Vivado Projects/HaDes/HaDes.srcs/sim_1/imports/_testbench/control_tb.vhd:16]
+INFO: [VRFC 10-3107] analyzing entity 'control_tb'
+ERROR: [VRFC 10-3782] unit 'control_tb' ignored due to previous errors [D:/Programme/Xilinx/Vivado Projects/HaDes/HaDes.srcs/sim_1/imports/_testbench/control_tb.vhd:21]
+INFO: [VRFC 10-3070] VHDL file 'D:/Programme/Xilinx/Vivado Projects/HaDes/HaDes.srcs/sim_1/imports/_testbench/control_tb.vhd' ignored due to errors

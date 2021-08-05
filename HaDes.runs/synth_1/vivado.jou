@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Aug  2 11:46:16 2021
+# Process ID: 14392
+# Current directory: D:/Programme/Xilinx/Vivado Projects/HaDes/HaDes.runs/synth_1
+# Command line: vivado.exe -log control.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source control.tcl
+# Log file: D:/Programme/Xilinx/Vivado Projects/HaDes/HaDes.runs/synth_1/control.vds
+# Journal file: D:/Programme/Xilinx/Vivado Projects/HaDes/HaDes.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source control.tcl -notrace

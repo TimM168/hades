@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl work  \
+"../../../../HaDes.srcs/sources_1/imports/_lib/work/hadescomponents.vhd" \
+"../../../../HaDes.srcs/sources_1/imports/_lib/work/hades_ram_dp.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../HaDes.srcs/sources_1/new/pmemory.vhd" \
+"../../../../HaDes.srcs/sim_1/imports/_testbench/pmemory_tb.vhd" \
+
+# Do not sort compile order
+nosort

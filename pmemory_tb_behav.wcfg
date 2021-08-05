@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pmemory_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="hadescomponents" />
+            <top_module name="pmemory_tb" />
+            <top_module name="xtoolbox" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="378297fs"></ZoomEndTime>
+      <Cursor1Time time="39594fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="132"></NameColumnWidth>
+      <ValueColumnWidth column_width="63"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/pmemory_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pmemory_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pmemory_tb/pwrite" type="logic">
+      <obj_property name="ElementShortName">pwrite</obj_property>
+      <obj_property name="ObjectShortName">pwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pmemory_tb/loadir" type="logic">
+      <obj_property name="ElementShortName">loadir</obj_property>
+      <obj_property name="ObjectShortName">loadir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pmemory_tb/radr" type="array">
+      <obj_property name="ElementShortName">radr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">radr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pmemory_tb/wadr" type="array">
+      <obj_property name="ElementShortName">wadr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">wadr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pmemory_tb/datain" type="array">
+      <obj_property name="ElementShortName">datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pmemory_tb/dataout" type="array">
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

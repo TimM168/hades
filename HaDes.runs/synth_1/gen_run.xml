@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1627897574">
+  <File Type="PA-TCL" Name="control.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="control_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="control_reports.tcl"/>
+  <File Type="RDS-RDS" Name="control.vds"/>
+  <File Type="RDS-UTIL" Name="control_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="control_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="control.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="control_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="control_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/control.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/work/hadescomponents.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="work"/>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/work/hades_ram_dp.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="work"/>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pmemory.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/haregs.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/indec.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_common/xtoolbox.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_common"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_common/xtoolbox.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xddr2_ctrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xddr2_ctrl.vhd"/>
+        <Attr Name="ImportTime" Val="1548334634"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xdmemory_dcache.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xdmemory_dcache.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xsevenseg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xsevenseg.vhd"/>
+        <Attr Name="ImportTime" Val="1548334634"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xddr2_arbiter.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xddr2_arbiter.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xvga_wcache.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xvga_wcache.vhd"/>
+        <Attr Name="ImportTime" Val="1548334634"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xconsole.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xconsole.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xddr2_cache.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xddr2_cache.vhd"/>
+        <Attr Name="ImportTime" Val="1548334634"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xbus_syn.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xbus_syn.vhd"/>
+        <Attr Name="ImportTime" Val="1548334634"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xvga_out.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xvga_out.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xvga_rcache.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xvga_rcache.vhd"/>
+        <Attr Name="ImportTime" Val="1548334634"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xvga.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xvga.vhd"/>
+        <Attr Name="ImportTime" Val="1548334634"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xddr2_package.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xddr2_package.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xlcd.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xlcd.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xddr2_mig.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xddr2_mig.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xps2.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xps2.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_synth/xuart.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_synth"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_synth/xuart.vhd"/>
+        <Attr Name="ImportTime" Val="1548334634"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_common/xreset.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_common"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_common/xreset.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_common/xtimerxt.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_common"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_common/xtimerxt.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_sim/xdmemory_sim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_sim"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_sim/xdmemory_sim.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/xbus_sim/xbus_sim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xbus_sim"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/xbus_sim/xbus_sim.vhd"/>
+        <Attr Name="ImportTime" Val="1548334636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/unisim/unisim_VCOMP.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="unisim"/>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/unisim/unisim_VCOMP.vhd"/>
+        <Attr Name="ImportTime" Val="1548334634"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/unisim/unisim_VPKG.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="unisim"/>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Uni/Bachelor - Module/5. Semester/Hardwarepraktikum/HaDes/_lib/unisim/unisim_VPKG.vhd"/>
+        <Attr Name="ImportTime" Val="1548334634"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/work/hades_mul.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="work"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/work/hades_addsub.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="work"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/work/hades_compare.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="work"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/work/hades_shift.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="work"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/_lib/work/irqreceiver.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="work"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="control"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
